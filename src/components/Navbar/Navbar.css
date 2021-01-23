@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.left-side img {
+  width: 120px;
+  margin-top: 20px;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+}
+.shopping-logo {
+  height: 20px;
+  color: gray;
+}
+.right-side div,
+p,
+button {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.sign-up-btn {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 50px;
+  height: 25px;
+  width: 80px;
+}
