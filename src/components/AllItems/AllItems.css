@@ -1,5 +1,4 @@
 .all-items {
-    /* border: 1px solid black; */
     height: 240px;
     width: 250px;
     padding-top: 10px;
@@ -12,6 +11,9 @@
 }
 .all-items img {
     width: 150px;
+}
+.all-items p {
+    text-align: center;
 }
 .items {
     display: flex;
