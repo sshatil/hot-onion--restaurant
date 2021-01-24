@@ -1,0 +1,14 @@
+.food-category {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.food-category button {
+    border: none;
+    background-color: white;
+    font-weight: 500;
+}
+.food-category button:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}

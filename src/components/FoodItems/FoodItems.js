@@ -2,19 +2,27 @@ import React, { useState } from 'react'
 import data from "../../fakeData/data"
 import AllItems from '../AllItems/AllItems'
 import FoodCategory from '../FoodCategory/FoodCategory'
+import './FoodItems.css'
 
 const FoodItems = () => {
-    const [foodItems, setFoodItems] = useState(data)
+    const lunch = data.slice(6, 12)
+    const [foodItems, setFoodItems] = useState(lunch)
     const filter = (foodType) => {
         const filterData = data.filter((item) => item.type === foodType);
+        if (filterData){
+            
+        }
         setFoodItems(filterData)
     }
     return (
       <div>
         <FoodCategory filter={filter} />
-        {foodItems.map((foodItem) => (
-          <AllItems foodItem={foodItem}></AllItems>
-        ))}
+        <div className="food-container">
+          {foodItems.map((foodItem) => (
+            <AllItems foodItem={foodItem}></AllItems>
+          ))}
+        </div>
+
         {/* <AllItems foodItems={foodItems}/> */}
       </div>
     );

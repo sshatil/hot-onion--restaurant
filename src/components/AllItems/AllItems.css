@@ -9,10 +9,10 @@
     box-shadow: 1px 1px 15px lightgrey;
     cursor: pointer;
 }
-.all-items img {
+.items img {
     width: 150px;
 }
-.all-items p {
+.items p {
     text-align: center;
 }
 .items {
