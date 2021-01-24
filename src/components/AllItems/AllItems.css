@@ -1,0 +1,21 @@
+.all-items {
+    /* border: 1px solid black; */
+    height: 240px;
+    width: 250px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.all-items:hover {
+    box-shadow: 1px 1px 15px lightgrey;
+    cursor: pointer;
+}
+.all-items img {
+    width: 150px;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
