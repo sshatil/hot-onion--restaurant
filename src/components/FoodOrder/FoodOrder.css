@@ -1,0 +1,42 @@
+.food-order {
+    display: flex;
+    /* padding: 20px 120px; */
+}
+.order-left {
+    margin: 130px;
+}
+.order-left h4 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.details {
+    margin-top:25px
+}
+.order-price {
+    margin-top: 15px;
+}
+.order-right img {
+    width: 350px;
+    padding-top: 60px;
+    margin-right: 50px;
+}
+.price {
+    display: flex;
+}
+.order-count {
+    display: flex;
+}
+.order-count button {
+    height: 35px;
+    margin-top: 10px
+}
+.add-btn {
+    margin-left: 10px;
+}
+.remove-btn {
+    margin-right: 30px;
+}
+.add-btn {
+    /* width: 60px; */
+    height: 23px;
+}

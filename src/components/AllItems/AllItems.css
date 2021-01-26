@@ -15,9 +15,15 @@
 .items p {
     text-align: center;
 }
+.items h4,p {
+    color: black;
+}
 .items {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.send-data {
+    text-decoration: none;
 }

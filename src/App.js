@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./components/Home/Home";
 import NoMatch from "./components/NoMatch/NoMatch";
+import FoodItemsDetails from "./components/FoodItemsDetails/FoodItemsDetails";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/item/:productId">
+          <FoodItemsDetails />
         </Route>
         <Route path="*">
           <NoMatch />

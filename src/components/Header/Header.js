@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import background from "../../images/bannerbackground.png";
+// import background from "../../images/bannerbackground.png";
 
 const Header = () => {
   return (

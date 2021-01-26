@@ -9,9 +9,6 @@ const FoodItems = () => {
     const [foodItems, setFoodItems] = useState(lunch)
     const filter = (foodType) => {
         const filterData = data.filter((item) => item.type === foodType);
-        if (filterData){
-            
-        }
         setFoodItems(filterData)
     }
     return (
