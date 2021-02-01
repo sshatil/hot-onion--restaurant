@@ -1,29 +1,32 @@
-import React, { useState } from 'react'
-import "./FoodOrder.css"
+import React, { useState } from "react";
+import "./FoodOrder.css";
 import AddIcon from "@material-ui/icons/Add";
 import RemoveIcon from "@material-ui/icons/Remove";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
-import OrderCart from '../OrderCart/OrderCart';
+import OrderCart from "../OrderCart/OrderCart";
+import { Link } from "react-router-dom";
 
 const FoodOrder = (props) => {
-    const {name,details,price,img} = props.orderItems
-    const [count, setCount] = useState(1)
-    const [totalPrice, setTotalPrice] = useState(price)
-    const addFood = () => {
-        const totalFood = count + 1
-        setCount(totalFood)
-        const total = price * totalFood
-        setTotalPrice(total);
-    }
-    const removedFood = () => {
-        const totalFood = count - 1;
-        setCount(totalFood);
-        const total = price * totalFood;
-        setTotalPrice(total);
-    }
-    console.log(totalPrice);
+  const { name, details, price, img } = props.orderItems;
+  const [count, setCount] = useState(1);
+  const [totalPrice, setTotalPrice] = useState(price);
+  const addFood = () => {
+    const totalFood = count + 1;
+    setCount(totalFood);
+    const total = price * totalFood;
+    setTotalPrice(total);
+  };
+  const removedFood = () => {
+    const totalFood = count - 1;
+    setCount(totalFood);
+    const total = price * totalFood;
+    setTotalPrice(total);
+  };
+  // console.log(totalPrice);
+  const handleOrderCart = props.handleOrderCart;
 
-    return (
+  return (
+    <>
       <div className="food-order">
         <div className="order-left">
           <h4>{name}</h4>
@@ -40,14 +43,21 @@ const FoodOrder = (props) => {
               </button>
             </div>
           </div>
-          <button className="add-btn">Add</button>
+          <Link to={"/orderCart"}>
+          <button
+            onClick={() => handleOrderCart(props.orderItems)}
+            className="add-btn"
+          >
+            Add
+          </button>
+          </Link>
         </div>
         <div className="order-right">
           <img src={img} alt="" />
         </div>
-        <OrderCart orderItems={props.orderItems} />
       </div>
-    );
-}
+    </>
+  );
+};
 
-export default FoodOrder
+export default FoodOrder;
