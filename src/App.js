@@ -18,9 +18,9 @@ function App() {
         <Route path="/item/:productId">
           <FoodItemsDetails />
         </Route>
-        <Route path="/orderCart">
+        {/* <Route path="/orderCart">
           <OrderCart />
-        </Route>
+        </Route> */}
         <Route path="*">
           <NoMatch />
         </Route>

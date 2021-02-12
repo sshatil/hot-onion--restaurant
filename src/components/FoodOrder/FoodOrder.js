@@ -43,14 +43,14 @@ const FoodOrder = (props) => {
               </button>
             </div>
           </div>
-          <Link to={"/orderCart"}>
+          {/* <Link to={"/orderCart"}> */}
           <button
             onClick={() => handleOrderCart(props.orderItems)}
             className="add-btn"
           >
             Add
           </button>
-          </Link>
+          {/* </Link> */}
         </div>
         <div className="order-right">
           <img src={img} alt="" />
