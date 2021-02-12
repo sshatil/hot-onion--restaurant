@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { FoodContext } from '../../App'
 
-const OrderCart = (props) => {
-    console.log(props.orderFood);
+const OrderCart = () => {
+    const [orderFood, setOrderFood] = useContext(FoodContext)
+    console.log(orderFood);
     return (
         <div>
-            
+            {
+                orderFood.map((food)=> (
+                    <div>
+                        <h1>{food.name}</h1>
+                    </div>
+                ))
+            }
         </div>
     )
 }
