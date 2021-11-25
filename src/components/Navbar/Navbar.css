@@ -1,10 +1,12 @@
 .navbar {
+  width: 100vw;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
 }
 .left-side img {
-  width: 120px;
-  margin-top: 20px;
+  width: 100px;
 }
 .right-side {
   display: flex;

@@ -1,16 +1,16 @@
 import "./App.css";
 
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import NoMatch from "./components/NoMatch/NoMatch";
 import FoodItemsDetails from "./components/FoodItemsDetails/FoodItemsDetails";
 import OrderCart from "./components/OrderCart/OrderCart";
 import { createContext, useState } from "react";
-export const FoodContext = createContext()
+export const FoodContext = createContext();
 
 function App() {
-  const [orderFood,setOrderFood] = useState([])
+  const [orderFood, setOrderFood] = useState([]);
   return (
     <FoodContext.Provider value={[orderFood, setOrderFood]}>
       <Router>
@@ -23,8 +23,8 @@ function App() {
             <FoodItemsDetails />
           </Route>
           <Route path="/orderCart">
-          <OrderCart />
-        </Route>
+            <OrderCart />
+          </Route>
           <Route path="*">
             <NoMatch />
           </Route>

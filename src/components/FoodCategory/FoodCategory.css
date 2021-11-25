@@ -1,14 +1,26 @@
 .food-category {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 3%;
 }
 .food-category button {
-    border: none;
-    background-color: white;
-    font-weight: 500;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  font-size: 16px;
 }
 .food-category button:hover {
-    color: red;
-    border-bottom: 2px solid red;
+  color: red;
+  /* border-bottom: 2px solid red; */
+}
+@media (max-width: 900px) {
+  .food-category {
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 425px) {
+  .food-category {
+    margin-bottom: 10%;
+  }
 }

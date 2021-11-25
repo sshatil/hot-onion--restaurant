@@ -1,5 +1,30 @@
 .food-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* margin: 40px 90px 30px 90px; */
+  margin-top: 2%;
+}
+
+.single-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .food-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 40px 90px 30px 90px;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin: 40px 90px 30px 90px; */
+  }
+}
+@media (max-width: 530px) {
+  .food-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* margin: 40px 90px 30px 90px; */
+  }
 }

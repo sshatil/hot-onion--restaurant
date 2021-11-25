@@ -24,7 +24,7 @@ export default [
     type: "Breakfast",
     img: breakfast1,
     name: "Breakfast-1",
-    title: "elementum in hac habitasse platea",
+    title: "elementum in hac",
     details:
       "ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat",
     price: 11,
@@ -34,7 +34,7 @@ export default [
     type: "Breakfast",
     img: breakfast2,
     name: "Breakfast-2",
-    title: "in est risus auctor sed",
+    title: "in est risus auc",
     details:
       "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse",
     price: 17,
@@ -44,7 +44,7 @@ export default [
     type: "Breakfast",
     img: breakfast3,
     name: "Jacquenetta",
-    title: "bibendum morbi non quam nec",
+    title: "bibendum morbi non",
     details:
       "proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
     price: 14,
@@ -54,7 +54,7 @@ export default [
     type: "Breakfast",
     img: breakfast4,
     name: "Victoir",
-    title: "eget vulputate ut ultrices vel",
+    title: "eget vulputate ut",
     details:
       "congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
     price: 21,
@@ -64,7 +64,7 @@ export default [
     type: "Breakfast",
     name: "Etty",
     img: breakfast5,
-    title: "integer a nibh in quis",
+    title: "integer a nibh in",
     details:
       "dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus",
     price: 15,
@@ -74,7 +74,7 @@ export default [
     type: "Breakfast",
     name: "Ralf",
     img: breakfast6,
-    title: "sodales scelerisque mauris",
+    title: "sodales scelerisque",
     details:
       "turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend",
     price: 11,
@@ -84,7 +84,7 @@ export default [
     type: "Lunch",
     name: "Marys",
     img: lunch1,
-    title: "ultrices posuere cubilia",
+    title: "ultrices posuere cub",
     details:
       "fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue",
     price: 24,
@@ -94,7 +94,7 @@ export default [
     type: "Lunch",
     name: "Renelle",
     img: lunch2,
-    title: "tellus in sagittis",
+    title: "tellus in sagit",
     details:
       "a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum",
     price: 7,
@@ -104,7 +104,7 @@ export default [
     type: "Lunch",
     name: "Elset",
     img: lunch3,
-    title: "vel nulla eget eros",
+    title: "vel nulla eget",
     details:
       "in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet",
     price: 15,
@@ -114,7 +114,7 @@ export default [
     type: "Lunch",
     name: "Phedra",
     img: lunch4,
-    title: "amet eleifend pede",
+    title: "amet eleifend",
     details:
       "arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus",
     price: 7,
@@ -124,7 +124,7 @@ export default [
     type: "Lunch",
     name: "Mollie",
     img: lunch5,
-    title: "dapibus at diam nam",
+    title: "dapibus at diam",
     details:
       "pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
     price: 20,
@@ -134,7 +134,7 @@ export default [
     type: "Lunch",
     name: "Mord",
     img: lunch6,
-    title: "amet consectetuer adipis",
+    title: "amet consectetuer",
     details:
       "rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in",
     price: 24,
@@ -194,7 +194,7 @@ export default [
     type: "Dinner",
     name: "Elset",
     img: dinner6,
-    title: "magna bibendum imperdiet",
+    title: "magna bibendum im",
     details:
       "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor",
     price: 20,

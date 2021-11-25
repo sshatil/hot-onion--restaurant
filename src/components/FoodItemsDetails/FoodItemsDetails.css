@@ -1,42 +1,94 @@
 .food-order {
-    display: flex;
-    /* padding: 20px 120px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .order-left {
-    margin: 130px;
+  margin: 130px;
+  width: 60%;
 }
 .order-left h4 {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 .details {
-    margin-top:25px
+  margin-top: 25px;
 }
 .order-price {
-    margin-top: 15px;
+  margin-top: 15px;
+}
+.order-right {
+  width: 40%;
 }
 .order-right img {
-    width: 350px;
-    padding-top: 60px;
-    margin-right: 50px;
+  width: 80%;
+  padding-top: 60px;
+  margin-right: 50px;
 }
 .price {
-    display: flex;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 .order-count {
-    display: flex;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 10px;
 }
-.order-count button {
-    height: 35px;
-    margin-top: 10px
+.order-count img {
+  width: 14px;
 }
+/* .order-count button {
+  /* height: 35px;
+  margin-top: 10px; */
+
 .add-btn {
-    margin-left: 10px;
+  margin-left: -20px;
+  border: none;
+  color: #fff;
+  background-color: #fab005;
+  padding: 6px;
+}
+.quantity {
+  margin-left: -20px;
 }
 .remove-btn {
-    margin-right: 30px;
+  margin-left: 10px;
+  border: none;
+  color: #fff;
+  background-color: #fab005;
+  padding: 6px;
 }
-.add-btn {
-    /* width: 60px; */
-    height: 23px;
+.order-btn {
+  padding: 5px 25px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #fab005;
+}
+
+@media (max-width: 768px) {
+  .order-left {
+    width: 100%;
+    margin: 0;
+  }
+  .food-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 2%;
+  }
+  .order-right {
+    width: 100%;
+    text-align: center;
+  }
+  .order-right img {
+    width: 50%;
+    padding: 0 auto;
+  }
 }
