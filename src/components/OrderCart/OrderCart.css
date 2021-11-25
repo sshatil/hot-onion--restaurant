@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 .order-food {
   display: grid;
@@ -23,7 +24,18 @@
   margin-bottom: 12px;
   text-align: center;
 }
-
+.total-price {
+  text-align: center;
+}
+.total-price button {
+  border: none;
+  outline: none;
+  background-color: #fab005;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 50px;
+}
 @media (max-width: 600px) {
   .order-food {
     display: grid;
