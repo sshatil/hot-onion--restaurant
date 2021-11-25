@@ -41,7 +41,10 @@ const FoodItemsDetails = () => {
   //btn
   const [orderFood, setOrderFood] = useContext(FoodContext);
   const handleOrderCart = (orderItems) => {
-    const newFood = [...orderFood, { ...orderItems, totalPrice: totalPrice }];
+    const newFood = [
+      ...orderFood,
+      { ...orderItems, totalPrice: totalPrice, quantity: count },
+    ];
     setOrderFood(newFood);
   };
   console.log(orderFood);

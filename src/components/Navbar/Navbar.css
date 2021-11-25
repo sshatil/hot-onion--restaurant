@@ -15,6 +15,17 @@
 .shopping-logo {
   height: 20px;
   color: gray;
+  display: flex;
+  /* align-items: center; */
+}
+.order-cart {
+  list-style: none;
+  color: gray;
+  padding-right: 4px;
+}
+.shopping-logo h6 {
+  color: #111;
+  margin-top: 3px;
 }
 .right-side div,
 p,
